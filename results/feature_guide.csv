@@ -1,0 +1,22 @@
+Feature,Meaning,Type,Representation
+HighBP,High blood pressure,Binary category,Keep 0/1
+HighChol,High cholesterol,Binary category,Keep 0/1
+CholCheck,Cholesterol checked within past five years,Binary category,Keep 0/1
+BMI,Body Mass Index,Numerical,StandardScaler
+Smoker,Smoked at least 100 cigarettes in lifetime,Binary category,Keep 0/1
+Stroke,Ever told of a stroke,Binary category,Keep 0/1
+HeartDiseaseorAttack,Coronary heart disease or myocardial infarction,Binary category,Keep 0/1
+PhysActivity,"Physical activity in past 30 days, excluding work",Binary category,Keep 0/1
+Fruits,Fruit consumed at least once per day,Binary category,Keep 0/1
+Veggies,Vegetables at least once per day,Binary category,Keep 0/1
+HvyAlcoholConsump,Heavy alcohol consumption under the dataset definition,Binary category,Keep 0/1
+AnyHealthcare,Any healthcare coverage,Binary category,Keep 0/1
+NoDocbcCost,Unable to see doctor because of cost,Binary category,Keep 0/1
+GenHlth,"Self-rated general health, excellent to poor",Ordered category,Explicit OrdinalEncoder
+MentHlth,Days of poor mental health in past 30 days,Numerical,StandardScaler
+PhysHlth,Days of poor physical health in past 30 days,Numerical,StandardScaler
+DiffWalk,Serious difficulty walking or climbing stairs,Binary category,Keep 0/1
+Sex,Recorded sex,Binary category,Keep 0/1
+Age,"Age group, not years",Ordered category,Explicit OrdinalEncoder
+Education,Highest education category,Ordered category,Explicit OrdinalEncoder
+Income,Household income band,Ordered category,Explicit OrdinalEncoder

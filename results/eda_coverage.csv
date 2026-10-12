@@ -1,0 +1,22 @@
+Feature,Type,Distribution and target comparison
+HighBP,Binary category,Completed in Section 3
+HighChol,Binary category,Completed in Section 3
+CholCheck,Binary category,Completed in Section 3
+BMI,Numerical,Completed in Section 3
+Smoker,Binary category,Completed in Section 3
+Stroke,Binary category,Completed in Section 3
+HeartDiseaseorAttack,Binary category,Completed in Section 3
+PhysActivity,Binary category,Completed in Section 3
+Fruits,Binary category,Completed in Section 3
+Veggies,Binary category,Completed in Section 3
+HvyAlcoholConsump,Binary category,Completed in Section 3
+AnyHealthcare,Binary category,Completed in Section 3
+NoDocbcCost,Binary category,Completed in Section 3
+GenHlth,Ordered category,Completed in Section 3
+MentHlth,Numerical,Completed in Section 3
+PhysHlth,Numerical,Completed in Section 3
+DiffWalk,Binary category,Completed in Section 3
+Sex,Binary category,Completed in Section 3
+Age,Ordered category,Completed in Section 3
+Education,Ordered category,Completed in Section 3
+Income,Ordered category,Completed in Section 3

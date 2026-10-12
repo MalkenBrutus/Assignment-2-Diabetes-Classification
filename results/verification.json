@@ -1,0 +1,19 @@
+{
+  "executed_code_cells": 14,
+  "execution_counts_sequential": true,
+  "notebook_execution_errors": 0,
+  "notebook_stderr_outputs": 0,
+  "model_fit_warnings": [],
+  "all_predictors_covered": 21,
+  "source_csv_preserved": true,
+  "csv_sha256": "19f367e3e3350768f0c144c5d73ee5b355f67a57eaaa86ca7bd8aec594d8b1d0",
+  "confusion_matrix_and_metric_formulas_verified": true,
+  "written_answers_Q1_Q7_G1_G2_present": true,
+  "report_threshold_metrics_match_notebook": true,
+  "report_pdf_pages": 4,
+  "report_rendered_with": "Microsoft Word PDF export",
+  "report_pages_and_saved_figures_visually_reviewed": true,
+  "fresh_kernel_execution": true,
+  "eda_scope": "TRAIN only",
+  "group_reflection_basis": "Supplied contribution scenario, not independently verified history"
+}

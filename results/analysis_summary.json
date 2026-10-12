@@ -1,0 +1,111 @@
+{
+  "versions": {
+    "Python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1"
+  },
+  "rows": 253680,
+  "predictors": 21,
+  "missing_cells": 0,
+  "identical_rows_retained": 24206,
+  "class_counts": {
+    "0": 218334,
+    "1": 35346
+  },
+  "train_rows": 202944,
+  "test_rows": 50736,
+  "train_positive": 28277,
+  "test_positive": 7069,
+  "baseline": {
+    "Accuracy": 0.8606709239987386,
+    "Precision": 0.0,
+    "Recall": 0.0,
+    "F1": 0.0,
+    "TN": 43667,
+    "FP": 0,
+    "FN": 7069,
+    "TP": 0
+  },
+  "threshold_results": [
+    {
+      "Threshold": 0.5,
+      "Accuracy": 0.8620703248186692,
+      "Precision": 0.5163368614818223,
+      "Recall": 0.15872117696986843,
+      "F1": 0.24280458775156893,
+      "TN": 42616,
+      "FP": 1051,
+      "FN": 5947,
+      "TP": 1122
+    },
+    {
+      "Threshold": 0.4,
+      "Accuracy": 0.8563938820561338,
+      "Precision": 0.47309695016117037,
+      "Recall": 0.2699108784835196,
+      "F1": 0.34372185191857324,
+      "TN": 41542,
+      "FP": 2125,
+      "FN": 5161,
+      "TP": 1908
+    }
+  ],
+  "findings": [
+    {
+      "title": "BMI",
+      "text": "Median BMI is 27 in class 0 and 31 in class 1. The distributions overlap, so the difference supports an association without giving a reliable single-value classification rule."
+    },
+    {
+      "title": "High blood pressure",
+      "text": "Class 1 accounts for 6.03% of respondents without high blood pressure and 24.46% of those with it. The difference makes this a useful candidate predictor, but it may also reflect age or other shared characteristics."
+    },
+    {
+      "title": "General health",
+      "text": "The class-1 proportion is 2.52% for excellent health and 38.06% for poor health. These self-reported categories relate strongly to the target. The data do not establish whether poor health precedes the condition or reflects its consequences."
+    },
+    {
+      "title": "Age",
+      "text": "The class-1 proportion is 1.42% at ages 18-24. It peaks at 22.03% in the 70-74 group, compared with 18.38% at 80+. Read the actual category pattern rather than assuming that each older group must have a higher proportion. Age is a grouped predictor, not an exact age."
+    },
+    {
+      "title": "Heavy alcohol indicator",
+      "text": "Class-1 proportions are 14.41% for code 0 and 5.81% for code 1. This observed association cannot establish a protective effect: group composition, reporting differences, or behaviour following diagnosis could contribute."
+    }
+  ],
+  "changed_predictions": 1860,
+  "new_true_positives": 786,
+  "new_false_positives": 1074,
+  "convergence_iterations": [
+    75
+  ],
+  "fit_warnings": [],
+  "csv_sha256": "19f367e3e3350768f0c144c5d73ee5b355f67a57eaaa86ca7bd8aec594d8b1d0",
+  "eda_scope": "TRAIN only",
+  "random_state": 42,
+  "test_size": 0.2,
+  "eda_feature_coverage": [
+    "BMI",
+    "MentHlth",
+    "PhysHlth",
+    "GenHlth",
+    "Age",
+    "Education",
+    "Income",
+    "HighBP",
+    "HighChol",
+    "CholCheck",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "HvyAlcoholConsump",
+    "AnyHealthcare",
+    "NoDocbcCost",
+    "DiffWalk",
+    "Sex"
+  ]
+}
